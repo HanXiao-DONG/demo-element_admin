@@ -23,6 +23,7 @@
  
   首页菜单配置(homePage)
  
+  ```ruby 
   homeParent: {                      // 首页（一级菜单）【可选】
        index: string,                // index值，唯一不能重复
        name: string,                 // 菜单标题
@@ -45,11 +46,13 @@
            menuShow: boolean         // 是否在页面显示该标签
        }
   }
+  ```
 
   ## left bar配置
  
   路由菜单配置(route)
  
+  ```ruby 
   showParent: boolean                                  // 是否显示一级菜单
   parentMenu: [                                        // 一级菜单【(showParent === true: 必须); (showParent === false: 不填写)】【可选】
        homePage.homeParent,                            // 首页的一级菜单【注意：如果homePage中没有配置，此处忽略】【可选】
@@ -113,5 +116,6 @@
            }
        }
   }
+  ```
  
  
