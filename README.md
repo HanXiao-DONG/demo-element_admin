@@ -3,7 +3,7 @@
   ## 目录
   src/components/common/js/route.js
 
-  ## 首页配置
+  ## 说明
   说明（一）：一级菜单非必须设置（如果没有设置一级菜单，则所有二级菜单变成一级菜单，此时页面没有head bar，只有side bar），
   二级菜单必须设置，其中首页必须设置（二级菜单）。
  
@@ -19,7 +19,7 @@
        三级菜单：project_a_b_c
        四级菜单：project_a_b_c_d
 
-  ## top bar配置
+  ## 首页配置
  
   首页菜单配置(homePage)
   ```ruby 
@@ -47,7 +47,7 @@
   }
   ```
 
-  ## left bar配置
+  ## 菜单配置
  
   路由菜单配置(route)
   ```ruby 
