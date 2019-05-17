@@ -117,7 +117,6 @@
        }
   }
   ```
-    ```
   ## 例子
   ```ruby
   export const homePage = new Vue({
