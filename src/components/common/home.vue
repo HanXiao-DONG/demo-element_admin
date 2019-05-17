@@ -217,6 +217,7 @@
                     });
                     this.menu = underscore.compact(menu);
                     if (to && to.meta) {
+                        this.routerChange(to);
                         this.selectMenuIndex = to.meta.index;
                     } else {
                         this.selectMenuIndex = null;
